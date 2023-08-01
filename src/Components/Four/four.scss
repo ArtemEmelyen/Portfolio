@@ -1,0 +1,83 @@
+.four {
+    width: 100%;
+    height: 100vh;
+    background: url('../Four/img/BG.jpg') no-repeat;
+    background-size: cover;
+    .container {
+        width: 100%;
+        height: 100%;
+        padding: 0 360px;
+        box-sizing: border-box;
+        .text {
+            width: 100%;
+            margin-top: 130px;
+            h1 {
+                color: #252525;
+                font-family: 'Oswald';
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 3.072px;
+            }
+            .stick {
+                width: 45px;
+                height: 2px;
+                background: #252525;
+            }
+        }
+        .images {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 100px;
+            .tom, .michael, .tim {
+                position: relative;
+                height: 398px;
+                .bg_text {
+                    position: absolute;
+                    bottom: 0;
+                    width: 370px;
+                    height: 55px;   
+                    background: #fff;
+                    opacity: 0.5;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.7s ease-in-out;
+                    p {
+                        margin: 0;
+                        font-family: 'Oswald';
+                        color: #252525;
+                        font-size: 18px;
+                    }
+                    .line , .second_text, span {
+                        display: none;
+                    }
+                }
+                .bg_text:hover {
+                    .line , .second_text, span {
+                        display: block;
+                    }
+                    transition: 0.7s ease-in-out;
+                    height: 155px;
+                    opacity: 0.92;
+                    flex-direction: column;
+                    .line {
+                        width: 45px;
+                        height: 2px;
+                        background: #252525;
+                        margin: 9px 0;
+                    }
+                }
+                img {
+                    width: 370px;
+                    height: 398px;
+                }
+            }
+        
+        }
+    }   
+}

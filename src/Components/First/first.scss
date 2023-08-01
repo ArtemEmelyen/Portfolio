@@ -1,0 +1,85 @@
+.first {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    position: relative;
+    .first_container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .left_text {
+            position: absolute;
+            h1 {
+                color: #333;
+                font-family: 'Oswald';
+                font-size: 46px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin: 0;
+                right: 390px;
+                bottom: 100px;
+                position: relative;
+            }
+            span {
+                color: #504E4E;
+                font-size: 52px;
+                font-style: normal;
+                font-weight: 100;
+                line-height: normal;
+                position: relative;
+                right: 390px;
+                bottom: 120px;
+            }
+            p {
+                color: #5B5858;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 25px;
+                margin: 0;
+                position: relative;
+                right: 350px;
+                bottom: 90px;
+            }
+            .stick {
+                width: 20px;
+                height: 2px;
+                background: #353535;
+                position: relative;
+                right: 380px;
+                bottom: 152px;
+            }
+        }
+        .first_image img {
+            width: 729px;
+            height: 559px;
+        }
+        .right_text {
+            position: absolute;
+            p {
+                color: #5B5858;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 25px;
+                margin: 0;
+                position: relative;
+                left: 520px;
+                top: 150px;
+            }
+            .stick {
+                width: 20px;
+                height: 2px;
+                background: #353535;
+                position: relative;
+                left: 490px;
+                top: 88px;
+            }
+        }
+    }
+}

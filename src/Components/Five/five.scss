@@ -1,0 +1,117 @@
+.five {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    .upper {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        text-align: center;
+        p {
+            color: #373737;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 31px;
+            letter-spacing: 2px;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+        p:nth-child(2){
+            color: #373737;
+            font-family: 'Oswald';
+            font-size: 30px;
+            font-weight: 100;
+        } 
+        span {
+            color: #B8B8B8;
+            font-family: 'Oswald';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            letter-spacing: 0.896px;
+        }
+        h1 {
+            color: #373737;
+            text-align: center;
+            font-family: 'Oswald';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.152px;
+        }
+    }
+    .down {
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        .want {
+            background: #FBFBFB;
+            height: 440px;
+            width: 950px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h1 {
+                color: #373737;
+                text-align: center;
+                font-family: 'Oswald';
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2.667px;
+            }
+            p {
+                color: #373737;
+                text-align: center;
+                font-size: 14px;
+                letter-spacing: 1.556px;
+                opacity: 0.8;
+            }
+            img {
+                width: 45px;
+                height: 45px;
+            }
+        }
+        .contact {
+            background: #70BD59;
+            height: 440px;
+            width: 960px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h1 {
+                color: #FFF;
+                text-align: center;
+                font-family: 'Oswald';
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2.667px;
+            }
+            p {
+                color: #FFF;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                letter-spacing: 1.556px;
+                opacity: 0.8;
+            }
+            img {
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+}

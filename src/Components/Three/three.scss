@@ -1,0 +1,226 @@
+.three {
+    width: 100%;
+    height: 200vh;
+    background: #fff;
+    .content {
+        width: 100%;
+        padding: 168px 360px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .left_block {
+            .text {
+                h1 {
+                    color: #252525;
+                    font-family: 'Oswald';
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 3px;
+                    margin: 0;
+                }
+                .stick {
+                    width: 45px;
+                    height: 2px;
+                    background: #252525;
+                    margin-top: 20px;
+                }
+                .links {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 500px;
+                    margin-top: 50px;
+                    a {
+                        color: #252525;
+                        font-family:'Courier New', Courier, monospace;
+                        font-size: 16px;
+                        letter-spacing: 0.3px;
+                        opacity: 0.3;
+                        text-decoration: none;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .kitty, .macbook {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                
+                img {
+                    width: 455px;
+                    height: 444px;  
+                }
+                .text5 {
+                    display:flex;
+                    flex-direction: column;
+                    margin-left: 180px;
+                    h3 {
+                        font-family:'Courier New', Courier, monospace;
+                        font-size: 18px;
+                        color: #252525;
+                        letter-spacing: 1px;
+                        font-style: normal;
+                        font-weight: 400;
+                    }
+                    p {
+                        color: #C2C2C2;
+                        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 300;
+                        letter-spacing: 1px;
+                    }
+                    a {
+                        color: #252525;
+                        font-family:'Courier New', Courier, monospace;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: 0.832px;
+                        text-decoration: none;
+                        opacity: 0;
+                        transition: 0.5s ease-in-out;
+                        
+                    }
+                    
+                }
+                .text5:hover {
+                    a {
+                        opacity: 1;
+                        text-decoration: line-through;
+                        text-decoration-color: #70BF73;
+                        transition: 0.5s ease-in-out;
+                    }
+                    span {
+                        text-decoration: line-through;
+                        text-decoration-color: #70BF73;
+                        
+                    }
+                    
+                }
+            }
+            .kitty {
+                margin-top: 200px;
+            }
+        }
+        .camera, .imac {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 20px;
+            img {
+                width: 455px;
+                height: 444px;  
+            }
+            .text5 {
+                display:flex;
+                flex-direction: column;
+                align-items: end;
+                h3 {
+                    font-family:'Courier New', Courier, monospace;
+                    font-size: 18px;
+                    color: #252525;
+                    letter-spacing: 1px;
+                    font-style: normal;
+                    font-weight: 400;
+                    margin-right: 160px;
+                    
+                }
+                p {
+                    color: #C2C2C2;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 300;
+                    letter-spacing: 1px;
+                    text-align: end;
+                    margin-right: 160px;
+                }
+                a {
+                    color: #252525;
+                    font-family:'Courier New', Courier, monospace;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.832px;
+                    text-decoration: none;
+                    opacity: 0;
+                    transition: 0.5s ease-in-out;
+                    margin-right: 160px;
+                    
+                }
+                
+            }
+            .text5:hover {
+                a {
+                    opacity: 1;
+                    text-decoration: line-through;
+                    text-decoration-color: #70BF73;
+                    transition: 0.5s ease-in-out;
+                }
+                span {
+                    text-decoration: line-through;
+                    text-decoration-color: #70BF73;
+                    
+                }
+                
+            }
+        }
+        .imac {
+            
+            span {
+                color: #252525;
+                font-family: 'Oswald';
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                letter-spacing: 3.072px;
+                position: relative;
+                bottom: 300px;
+                right: 170px;
+                margin: 0;
+            }
+        }
+        .camera {
+            span {
+                color: #252525;
+                font-family: 'Oswald';
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                letter-spacing: 3.072px;
+                position: relative;
+                bottom: 300px;
+                right: 290px;
+                margin: 0;
+                
+            }
+        }
+        .kitty, .macbook {
+            
+            span {
+                color: #252525;
+                font-family: 'Oswald';
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                letter-spacing: 3.072px;
+                position: relative;
+                
+                bottom: 300px;
+                left: 200px;
+                margin: 0;
+            }
+        }
+        
+    }
+}
